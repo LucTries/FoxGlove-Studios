@@ -1,0 +1,477 @@
+
+<!-- BACKGROUND SYSTEM -->
+<div class="background-container">
+  <div class="bg-layer" id="bg1"></div>
+  <div class="bg-layer" id="bg2"></div>
+  <div class="bg-overlay"></div>
+</div>
+
+<!-- INTRO -->
+<section id="intro" data-bg="images/intro.jpg">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FoxGlove Home</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.logo{
+width:660px;
+margin-bottom:100px;
+opacity:0.95;
+}
+/* GENERAL */
+
+
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+color:#f5f4d3;
+background:black;
+overflow-x:hidden;
+}
+
+/* FULLSCREEN SECTIONS */
+
+section{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+position:relative;
+}
+
+
+
+/* CONTENT ABOVE BACKGROUND */
+
+.content{
+position:relative;
+z-index:2;
+max-width:800px;
+transform: translateY(-40px);
+}
+.logo{
+width:400px;
+margin-bottom:20px;
+display:block;
+margin-left:auto;
+margin-right:auto;
+
+opacity:0.8;
+
+position:relative;
+top:20px;    
+left:20px;     
+}
+
+
+
+/* PARALLAX BACKGROUNDS */
+
+.parallax{
+background-attachment:fixed;
+background-size:cover;
+background-position:center;
+}
+
+/* TITLE */
+
+h1{
+font-size:72px;
+letter-spacing:14px;
+margin:10px 0;
+font-weight:300;
+}
+
+nav{
+margin-top:30px;
+}
+
+nav a{
+margin:0 20px;
+color:#f5f4d3;
+text-decoration:none;
+font-size:18px;
+border-bottom:1px solid transparent;
+transition:0.3s;
+}
+
+nav a:hover{
+border-bottom:1px solid #ffffff;
+}
+
+/* SEPARATOR */
+
+.separator{
+width:600px;
+height:1px;
+background:#f5f4d3;
+margin:20px auto;
+}
+
+/* SCROLL ANIMATIONS */
+
+
+
+.fade{
+opacity:0;
+transform:translateY(40px);
+transition:all 1s ease;
+}
+
+.fade.show{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+</head>
+
+
+</section>
+
+<script src="script.js"></script>
+
+</html>
+
+
+
+</section>
+
+</body>
+
+
+</div>
+
+<section id="intro" data-bg="images/intro.jpg">
+
+
+<div class="content">
+
+<img src="images/logo.png" class="logo">
+
+<h1>FOXGLOVE STUDIOS</h1>
+
+<div class="separator"></div>
+
+<nav>
+<a href="#about">About Us</a>
+<a href="#events">Events</a>
+<a href="#projects">Projects</a>
+<a href="#donate">Donate</a>
+</nav>
+
+<p style="margin-top:30px;">
+FoxGlove is an independent film collective made up of a group of friends aiming to share their vision through the art of filmmaking. We produce original and independent films, and wish to share them with the world. 
+</p>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-bg="images/about.jpg">
+  
+
+<section id="about">
+
+<div class="content">
+
+<h2>About Us</h2>
+
+<p class="about-text">
+FoxGlove is built on a foundation laid out by four key members, each one's role being as importamt and 
+essential as the others. Our goal is to produce
+longer, more challenging films, it is therefore imperative to for these cornerstone members to fulfill their responsibilities.
+</p>
+
+
+<div class="team-container">
+
+    
+<!-- PERSON 1 -->
+
+<div class="team-card">
+
+<div class="team-photo">
+    <div class="photo-inner">
+        <img src="images/person1.jpg" class="person1">
+    </div>
+</div>
+
+<h3>Luca-Mihai Ciocan</h3>
+
+<p class="short-desc">
+CEO and founder of FoxGlove Studios.
+
+<p class="extra-bio">
+Director of all our films, and the main editor of our productions, as well as co-writer, screenplay artist and actor .
+</p>
+
+<button class="toggle-btn">Show more</button>
+
+</div>
+
+
+<!-- PERSON 2 -->
+
+<div class="team-card">
+
+<div class="team-photo">
+    <div class="photo-inner">
+        <img src="images/person2.jpg" class="person2">
+    </div>
+</div>
+
+<h3>Jasper Tofte Messel</h3>
+
+<p class="short-desc">
+Co-founder of FoxGlove Studios.
+</p>
+
+<p class="extra-bio">
+Main script writer, co-director and quality assurance for all projects, as well as actor and additional editing.
+</p>
+
+<button class="toggle-btn">Show more</button>
+
+</div>
+
+
+<!-- PERSON 3 -->
+
+<div class="team-card">
+
+<div class="team-photo">
+    <div class="photo-inner">
+        <img src="images/person3.jpg" class="person3">
+    </div>
+</div>
+
+<h3>Vegard Øverland</h3>
+
+<p class="short-desc">
+Head of the acting department, and co-founder of FoxGlove Studios.
+</p>
+
+<p class="extra-bio">
+Main talent for all our projects/productions, lead casting director and script consultant/editor.
+</p>
+
+<button class="toggle-btn">Show more</button>
+
+</div>
+
+
+<!-- PERSON 4 -->
+
+<div class="team-card">
+
+<div class="team-photo">
+    <div class="photo-inner">
+        <img src="images/person4.jpg" class="person4">
+    </div>
+</div>
+
+<h3>Just Holck Hauglin</h3>
+
+<p class="short-desc">
+Lead set supervisor.
+</p>
+
+<p class="extra-bio">
+Main camera and light operator on sets, as well as a major acting roles in our projects.
+</p>
+
+<button class="toggle-btn">Show more</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+</section>
+
+<!-- EVENTS -->
+<section id="events" data-bg="images/events.jpg">
+
+  <div class="content">
+
+
+<h2>EVENTS</h2>
+
+<p class="events-subtext">
+  Get updated on events, both local and digital, we will hope to host community events as well as a Youtube premiere for all projects. 
+</p>
+
+
+<div class="events-container">
+
+    <!-- LEFT: IMAGE SLIDER -->
+    <div class="slider">
+
+        <button class="arrow left">&#10094;</button>
+
+        <div class="slides">
+            <img src="images/event1.jpg" class="slide active">
+            <img src="images/event2.jpg" class="slide">
+            <img src="images/event3.jpg" class="slide">
+            <img src="images/event4.jpg" class="slide">
+        </div>
+
+        <button class="arrow right">&#10095;</button>
+
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+    </div>
+
+    <!-- RIGHT: TEXT -->
+    <div class="event-info">
+
+        <h3>Event Name</h3>
+
+        <p class="event-desc">N/A</p>
+
+        <h4>Dates</h4>
+
+        <p class="event-dates">N/A</p>
+
+    </div>
+
+</div>
+
+</section>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" data-bg="images/projects.jpg">
+
+<section id="projects" class="projects-section">
+
+  <!-- HEADER -->
+  <div class="projects-header">
+    <h2 class="section-title">PROJECTS</h2>
+    <p class="section-desc">
+      A showcase of our latest and past film work. Explore our creative direction, storytelling, and production.
+    </p>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="projects-container">
+
+    <!-- LEFT SIDE -->
+    <div class="main-video">
+      
+      <div class="video-frame">
+        <iframe 
+          id="main-video"
+          src="https://www.youtube.com/embed/TCan2HlO3ho"
+          frameborder="0"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h3 id="video-title">The Third Rail Trailer</h3>
+      <p id="video-desc">Our upcoming feature film. A dark action comedy about one man's goal of pursuing the leader of a dangerous organization of assassins. This film is special to us, as it was made even though we now live in different countries, making planning and shooting difficult. the making of this film shows how well we can work in unison and collaborate despite tight schedules, ridiculous wake-up times and actors and crew living great distances apart. This film also marks a step forward in terms of effects. We always want to push for trying new things, by either incoorporating practical or 3D effects or new locations. With this project we invested time into experimental lighting, colour grading, practical effects and VFX. As of now, this is the most ambitious projects that we've taken on, the result of which we are proud to present.</p>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="video-list">
+
+      <!-- FILM 1 -->
+      <a href="#" class="video-card active"
+         data-video="https://www.youtube.com/embed/TCan2HlO3ho"
+         data-title="The Third Rail Trailer"
+         data-desc="Our upcoming feature film. A dark action comedy about one man's goal of pursuing the leader of a dangerous organization of assassins. This film is special to us, as it was made even though we now live in different countries, making planning and shooting difficult. the making of this film shows how well we can work in unison and collaborate despite tight schedules, ridiculous wake-up times and actors and crew living great distances apart. This film also marks a step forward in terms of effects. We always want to push for trying new things, by either incoorporating practical or 3D effects or new locations. With this project we invested time into experimental lighting, colour grading, practical effects and VFX. As of now, this is the most ambitious projects that we've taken on, the result of which we are proud to present.">
+        <img src="images/Film 4.png">
+        <h4>The Third Rail Trailer</h4>
+        <p>Our upcoming feature film.</p>
+      </a>
+
+      <!-- FILM 2 -->
+      <a href="#" class="video-card"
+         data-video="https://www.youtube.com/embed/IBj1fGLdNSE"
+         data-title="The Old Dog's Renaissance"
+         data-desc="Our first film project, a naked gun inspired Noir film, about a detective investigating the sudden and suspicious death of a celebrity. This film came to be as a result of a school project, where we needed to make a presentable product. Though we we're told a film 5 minutes long would be enough, we opted for a longer film with and overarching plot and several good character moments. The whole process took a total of 6 weeks, during which we wrote the script, planned shoots, filmed and edited all at the same time. The result of that hard work is a debut feauture which we gladly call our first project.">
+        <img src="images/Film 1.jpg">
+        <h4>The Old Dog's Renaissance</h4>
+        <p>Our first film project, a naked gun inspired Noir film. </p>
+      </a>
+
+      <!-- FILM 3 -->
+      <a href="#" class="video-card"
+         data-video="https://www.youtube.com/embed/egA-9AfEeuE"
+         data-title="Sortition"
+         data-desc="A short film made in collaboration with Stockholms Filmskola. An exploration of a man's guilt and redemption, inspired by Dante Alighieri's Inferno. This was made in the span of 2 of the 4 weeks of the schools summer course, where we learned the basics of professional filmmaking, and putting it into practice.">
+        <img src="images/Film 2.jpg">
+        <h4>Sortition</h4>
+        <p>A short film made in collaboration with Stockholms Filmskola.</p>
+      </a>
+
+      <!-- FILM 4 -->
+      <a href="#" class="video-card"
+         data-video="https://www.youtube.com/embed/C6NFWLunB_I"
+         data-title="Polite Company"
+         data-desc="Polite Company, our second film project, is a short bottle comedy, inspired by Quentin Tarantino's Hateful Eight. This was our first realization of how devistating scheduling and time issues can be. We were very ambitious with this project, deciding to have around 10 actors on the set at all times, which came with the set of problems, mostly scheduling, lack of recourses and time constraints. As a result, the complete film lacks the original ending planned in the script, an unsatisfying ending and a rushed editing process which could've been improved. We often joke about how bad this ended up, but the memory of this film serves as a great indicator of how far we've come, in terms of planning and on-set efficiency. Polite Company is a roadblock that we aimed to learn from.">
+        <img src="images/Film 3.png">
+        <h4>Polite Company</h4>
+        <p>One of our biggest mistakes, but important for our development.</p>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+</section>
+
+<!-- DONATE -->
+<section id="donate" class="donate-section" data-bg="images/donate.jpg">
+
+<section class="donate-section">
+
+  <div class="donate-content">
+
+    <h2 class="donate-title">SUPPORT FOXGLOVE</h2>
+
+    <p class="donate-text">
+      Your donations help us fund productions, support creative talent, and bring films to our community.
+    </p>
+
+    <div class="donate-cta">
+      <a href="YOUR_DONATION_LINK" class="donate-button">Donate Now</a>
+    </div>
+
+    <img src="images/logo.png" alt="Foxglove Logo" class="donate-logo">
+
+  </div>
+
+</section>
+
+
+
